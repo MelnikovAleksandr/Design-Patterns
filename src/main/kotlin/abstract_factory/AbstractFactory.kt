@@ -1,10 +1,7 @@
 package abstract_factory
 
 /**
-An abstract factory is a generative
-design pattern that allows you to create families
-of related objects without being tied to specific
-classes of objects being created.
+ * Abstract factory
  */
 
 interface Button {

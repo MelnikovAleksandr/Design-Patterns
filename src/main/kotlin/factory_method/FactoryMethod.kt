@@ -1,10 +1,7 @@
 package factory_method
 
 /**
-The factory method is a generative
-design pattern that defines a common interface for
-creating objects in a superclass, allowing subclasses
-to change the type of objects being created.
+ * Factory method
  */
 
 abstract class Cat {

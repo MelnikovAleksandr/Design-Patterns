@@ -1,11 +1,7 @@
 package builder
 
 /**
-A builder is a generative design pattern
-that allows you to create complex objects step by step.
-The builder makes it possible to use the same
-construction code to get different
-representations of objects.
+ * Builder
  */
 
 class Dog private constructor(

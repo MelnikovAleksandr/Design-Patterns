@@ -33,4 +33,11 @@ class CatTest {
 
         assertEquals(4, yellowCatHouse.catsCount())
     }
+
+    @Test
+    fun test_cats_colors() {
+        val yellowCatHouse = YellowCatHouse()
+        val yellowCat = yellowCatHouse.newCat()
+        assertEquals("yellow", yellowCat.color)
+    }
 }

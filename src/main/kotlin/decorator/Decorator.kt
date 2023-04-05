@@ -1,7 +1,14 @@
 package decorator
 
 /**
- * Decorator
+This is an example of the Decorator design pattern.
+The MyPrinter interface defines the common functionality for printers.
+The HelloPrinter class implements the MyPrinter interface and prints "Hello".
+The CommaPrinter, SpacePrinter, WorldPrinter, and ExclamationPrinter classes are decorators that modify the output of
+other printers. They each take another MyPrinter object as a constructor argument and modify the printed text
+by appending a comma, space, "World", or exclamation mark, respectively.
+The main function creates an ExclamationPrinter object that wraps a WorldPrinter, which wraps a SpacePrinter,
+which wraps a CommaPrinter, which finally wraps a HelloPrinter. When printed, the output is "Hello, World!".
  */
 
 interface MyPrinter {

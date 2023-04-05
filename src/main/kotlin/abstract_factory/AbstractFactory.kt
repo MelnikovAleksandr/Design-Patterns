@@ -1,7 +1,19 @@
 package abstract_factory
 
 /**
- * Abstract factory
+ * This code demonstrates the Abstract Factory design pattern in Kotlin.
+ *
+ * The `Button` interface defines the `draw()` method for drawing buttons.
+ * The `AndroidButton` and `IosButton` classes implement the `Button` interface for Android and iOS devices, respectively.
+ *
+ * The `Text` interface defines the `draw()` method for drawing text.
+ * The `AndroidText` and `IosText` classes implement the `Text` interface for Android and iOS devices, respectively.
+ *
+ * The `ButtonFactory` interface defines the `createButton()` and `createText()` methods for creating `Button` and `Text` objects, respectively.
+ * The `AndroidButtonFactory` and `IOSButtonFactory` classes implement the `ButtonFactory` interface for Android and iOS devices, respectively.
+ *
+ * Each `ButtonFactory` implementation creates instances of `AndroidButton`/`IosButton` and `AndroidText`/`IosText` classes
+ * which can be used interchangeably in a specific mobile application.
  */
 
 interface Button {

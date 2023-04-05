@@ -1,7 +1,16 @@
 package builder
 
 /**
- * Builder
+
+ * This is a Dog class which is designed using the Builder pattern.
+ * The Builder pattern is a creational design pattern that lets you construct
+ * complex objects step by step, using only the needed pieces of data.
+ *
+ * @param name The name of the dog.
+ * @param kind The kind of dog.
+ * @param gender The gender of the dog.
+ * @param bornFrom The place where the dog was born.
+ * @param weight The weight of the dog.
  */
 
 class Dog private constructor(
